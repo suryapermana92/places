@@ -6,7 +6,7 @@ const PlacesDetail = (places) => {
     console.log(places.places)
     return (
         <View style={styles.cardStyle}>
-            <Text>{places.places.nama}</Text>
+            <Text style={styles.namaStyle}>{places.places.nama}</Text>
             </View>
     )
 
@@ -14,7 +14,8 @@ const PlacesDetail = (places) => {
 const styles = {
     namaStyle: {
         fontColor: 'orange',
-        fontSize: 20
+        fontSize: 20,
+        textAlign: 'bottom'
     }
 }
 
