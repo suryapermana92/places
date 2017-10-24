@@ -1,0 +1,34 @@
+[
+    {
+      "id": "1",
+      "nama": "restoran padang",
+      "lokasi": "Meruya",
+      "jamBuka": "10.00",
+      "jamTutup": "17.00",
+  "url":""
+    },
+    {
+      "id": "2",
+      "nama": "bakmi bangka",
+      "lokasi": "Blok M",
+      "jamBuka": "06.00",
+      "jamTutup": "12.00",
+  "url":""
+    },
+    {
+      "id": "3",
+      "nama": "cafe nongkrong",
+      "lokasi": "BSD",
+      "jamBuka": "17.00",
+      "jamTutup": "24.00",
+  "url":""
+    },
+    {
+      "id": "4",
+      "nama": "jajanan pasar",
+      "lokasi": "Setiabudi",
+      "jamBuka": "05.00",
+      "jamTutup": "10.00",
+  "url":""
+    }
+  ]
