@@ -12,16 +12,18 @@ const Card = (props) => {
 }
 const styles = {
     cardStyle: {
+        backgroundColor: '#f8fccf',
         height: 200,
-        borderColor: 'orange',
         borderWidth: 1,
 		borderRadius: 2,
 		borderColor: '#ddd',
-        padding: 10,
-        marginTop: 2,
-        marginBottom: 2,
-        marginLeft: 5,
-        marginRight: 5 
+        marginTop: 5,
+        marginBottom: 5,
+        marginLeft: 10,
+        marginRight: 10,
+        shadowColor: 'grey',
+        shadowOpacity: 0.5,
+        elevation: 5
     }
 }
 

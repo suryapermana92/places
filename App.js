@@ -14,7 +14,7 @@ export default class App extends Component {
   
   render() {
     return (
-      <View>
+      <View style={{backgroundColor: '#f8fccf'}}>
         <Header title={'Food Hunting Places'} />
         <ScrollView>
           <PlacesList />

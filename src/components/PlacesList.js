@@ -16,14 +16,10 @@ class PlacesList extends Component {
       renderList() {
           if(this.state.database.length > 0) {
               return this.state.database.map(places => {
-                  
                   return (
-                      <Card>
-                      <PlacesDetail
-                        key={places.id}
+                      <PlacesDetail key={places.id}  
                         places={places}
                       />
-                      </Card>
                   )
               })
           }
